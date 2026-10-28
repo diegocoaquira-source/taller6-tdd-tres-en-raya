@@ -1,0 +1,35 @@
+COMANDO: "<JDK_LOCAL>\bin\java.exe" -Dfile.encoding=UTF-8 -cp <PROYECTO>\.local-build\final com.ucb.tdd.Main
+RETORNO: 0
+
+Tres en Raya: X y +. Fila y columna de 1 a 3. q para salir.
+. . . 
+. . . 
+. . . 
+Turno X> Jugada rechazada: La coordenada 0 esta fuera de lugar
+. . . 
+. . . 
+. . . 
+Turno X> No hay ganador
+X . . 
+. . . 
+. . . 
+Turno +> Jugada rechazada: La posicion ya esta ocupada
+X . . 
+. . . 
+. . . 
+Turno +> No hay ganador
+X . . 
++ . . 
+. . . 
+Turno X> No hay ganador
+X X . 
++ . . 
+. . . 
+Turno +> No hay ganador
+X X . 
++ + . 
+. . . 
+Turno X> X es el ganador
+X X X 
++ + . 
+. . . 

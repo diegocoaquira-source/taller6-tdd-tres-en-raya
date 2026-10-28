@@ -1,0 +1,3 @@
+COMANDO: "<JDK_LOCAL>\bin\javac.exe" --release 8 -encoding UTF-8 -cp "<JUNIT_LOCAL>" -d <COPIA_TEMPORAL> <COPIA_TEMPORAL>\TresEnRaya.java <PROYECTO>\src\test\java\com\ucb\tdd\TresEnRayaBaseTest.java <PROYECTO>\src\test\java\com\ucb\tdd\TresEnRayaIATest.java
+RETORNO: 0
+

@@ -1,0 +1,31 @@
+COMANDO: "<JDK_LOCAL>\bin\java.exe" -Dfile.encoding=UTF-8 -cp "<COPIA_TEMPORAL>;<JUNIT_LOCAL>" org.junit.runner.JUnitCore com.ucb.tdd.TresEnRayaIATest
+RETORNO: 1
+
+JUnit version 4.13.2
+.E....E.....E...E...
+Time: 0,015
+There were 4 failures:
+1) victoriaEnNovenaJugadaTienePrioridadSobreTableroLleno(com.ucb.tdd.TresEnRayaIATest)
+org.junit.ComparisonFailure: Resultado del movimiento 8 expected:<[X es el] ganador> but was:<[No hay] ganador>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.ucb.tdd.TresEnRayaIATest.comprobarPartida(TresEnRayaIATest.java:213)
+	at com.ucb.tdd.TresEnRayaIATest.victoriaEnNovenaJugadaTienePrioridadSobreTableroLleno(TresEnRayaIATest.java:123)
+2) ochoLineasParaMasVerificanCadaRespuestaYTurno(com.ucb.tdd.TresEnRayaIATest)
+org.junit.ComparisonFailure: Resultado del movimiento 5 expected:<[+ es el] ganador> but was:<[No hay] ganador>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.ucb.tdd.TresEnRayaIATest.comprobarPartida(TresEnRayaIATest.java:213)
+	at com.ucb.tdd.TresEnRayaIATest.ochoLineasParaMasVerificanCadaRespuestaYTurno(TresEnRayaIATest.java:117)
+3) adicionalTrasCadaVictoriaBloqueaOcupadasYLibresSinCambiarTurno(com.ucb.tdd.TresEnRayaIATest)
+org.junit.ComparisonFailure: Resultado del movimiento 4 expected:<[X es el] ganador> but was:<[No hay] ganador>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.ucb.tdd.TresEnRayaIATest.comprobarPartida(TresEnRayaIATest.java:213)
+	at com.ucb.tdd.TresEnRayaIATest.adicionalTrasCadaVictoriaBloqueaOcupadasYLibresSinCambiarTurno(TresEnRayaIATest.java:193)
+4) ochoLineasParaXVerificanCadaRespuestaYTurno(com.ucb.tdd.TresEnRayaIATest)
+org.junit.ComparisonFailure: Resultado del movimiento 4 expected:<[X es el] ganador> but was:<[No hay] ganador>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.ucb.tdd.TresEnRayaIATest.comprobarPartida(TresEnRayaIATest.java:213)
+	at com.ucb.tdd.TresEnRayaIATest.ochoLineasParaXVerificanCadaRespuestaYTurno(TresEnRayaIATest.java:112)
+
+FAILURES!!!
+Tests run: 16,  Failures: 4
+

@@ -1,0 +1,21 @@
+COMANDO: "<JDK_LOCAL>\bin\java.exe" -Dfile.encoding=UTF-8 -cp "<COPIA_TEMPORAL>;<JUNIT_LOCAL>" org.junit.runner.JUnitCore com.ucb.tdd.TresEnRayaIATest
+RETORNO: 1
+
+JUnit version 4.13.2
+............E..E..
+Time: 0,02
+There were 2 failures:
+1) rechazarOcupadaNoBorraNiReemplazaLaFichaOriginal(com.ucb.tdd.TresEnRayaIATest)
+org.junit.ComparisonFailure: expected:<[X es el] ganador> but was:<[No hay] ganador>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.ucb.tdd.TresEnRayaIATest.rechazarOcupadaNoBorraNiReemplazaLaFichaOriginal(TresEnRayaIATest.java:176)
+2) rechazosConsecutivosDeOcupadaNoConsumenTurnos(com.ucb.tdd.TresEnRayaIATest)
+java.lang.AssertionError: expected java.lang.Exception to be thrown, but nothing was thrown
+	at org.junit.Assert.assertThrows(Assert.java:1028)
+	at org.junit.Assert.assertThrows(Assert.java:981)
+	at com.ucb.tdd.TresEnRayaIATest.rechazosConsecutivosDeOcupadaNoConsumenTurnos(TresEnRayaIATest.java:71)
+
+FAILURES!!!
+Tests run: 16,  Failures: 2
+

@@ -1,0 +1,135 @@
+{
+  "fecha": "2026-10-28",
+  "compilador": "javac 17.0.6",
+  "bytecode_major": 52,
+  "junit_local": "4.13.2",
+  "junit_pom": "4.13",
+  "resultados": {
+    "jdk17": {
+      "version": "openjdk version \"17.0.6\" 2023-01-17\nOpenJDK Runtime Environment JBR-17.0.6+10-829.5-jcef (build 17.0.6+10-b829.5)\nOpenJDK 64-Bit Server VM JBR-17.0.6+10-829.5-jcef (build 17.0.6+10-b829.5, mixed mode)",
+      "suites": {
+        "base": {
+          "pruebas": 28,
+          "resultado": "PASS"
+        },
+        "ia": {
+          "pruebas": 16,
+          "resultado": "PASS"
+        },
+        "docente": {
+          "pruebas": 10,
+          "resultado": "PASS"
+        },
+        "guiados": {
+          "pruebas": 2,
+          "resultado": "PASS"
+        },
+        "desarrollo": {
+          "pruebas": 16,
+          "resultado": "PASS"
+        },
+        "regresion": {
+          "pruebas": 3,
+          "resultado": "PASS"
+        },
+        "base-ia": {
+          "pruebas": 44,
+          "resultado": "PASS"
+        },
+        "todas": {
+          "pruebas": 75,
+          "resultado": "PASS"
+        }
+      }
+    },
+    "java8": {
+      "version": "java version \"1.8.0_241\"\nJava(TM) SE Runtime Environment (build 1.8.0_241-b07)\nJava HotSpot(TM) Client VM (build 25.241-b07, mixed mode)",
+      "suites": {
+        "base": {
+          "pruebas": 28,
+          "resultado": "PASS"
+        },
+        "ia": {
+          "pruebas": 16,
+          "resultado": "PASS"
+        },
+        "docente": {
+          "pruebas": 10,
+          "resultado": "PASS"
+        },
+        "guiados": {
+          "pruebas": 2,
+          "resultado": "PASS"
+        },
+        "desarrollo": {
+          "pruebas": 16,
+          "resultado": "PASS"
+        },
+        "regresion": {
+          "pruebas": 3,
+          "resultado": "PASS"
+        },
+        "base-ia": {
+          "pruebas": 44,
+          "resultado": "PASS"
+        },
+        "todas": {
+          "pruebas": 75,
+          "resultado": "PASS"
+        }
+      }
+    }
+  },
+  "base_congelada": {
+    "tag": "base-didactica-revision-final",
+    "commit": "bd7486049cccf5a7d486bcfbd78e995bede932af",
+    "sha256": "5d38f9abbd557a1ec27aa55787283e2b5f1dbd17738fdd2a7daf4f8c1ca50586",
+    "normalizacion": "LF, igual que las fuentes guardadas en Git",
+    "revision": "Solo se retiro el comentario de autoria; casos identicos a base-didactica-v1"
+  },
+  "sha256_motor": "17ae14699702d2d8daa7ec3dc92d4463f4038b5f042a201199ad75100d279ff8",
+  "sha256_ia": "db252e21ae4b64c1d7c8e03a142d08154a5b89583f539bd8c50b5ee8401b4208",
+  "misma_compilacion_para_base_e_ia": true,
+  "cobertura_lineas": "NO MEDIDA",
+  "autoria": "Ambas suites asistidas por IA; requisito humano independiente pendiente",
+  "github": "NO PUBLICADO; Actions NO EJECUTADO",
+  "defectos_sembrados": [
+    {
+      "id": "M1",
+      "defecto": "Borra la ficha ocupada antes de rechazar",
+      "base": "NO DETECTADO",
+      "ia": "DETECTADO"
+    },
+    {
+      "id": "M2",
+      "defecto": "Omite diagonal opuesta",
+      "base": "DETECTADO",
+      "ia": "DETECTADO"
+    },
+    {
+      "id": "M3",
+      "defecto": "Consume turno al rechazar ocupada",
+      "base": "DETECTADO",
+      "ia": "DETECTADO"
+    }
+  ],
+  "referencia": {
+    "docente": "10 PASS",
+    "regresion": "3 pruebas, 1 falla; turno + esperado frente a X observado"
+  },
+  "maven": {
+    "ejecutado": true,
+    "retorno": 1,
+    "verificado": false
+  },
+  "sha256_jar": "553c155795754b87a528a35181314cc627b84f58d0c3996ef47667dd26cffccd",
+  "escenarios_agrupados_ia": {
+    "limites_y_estados": 24,
+    "casillas_iniciales": 9,
+    "lineas_por_jugador": 8,
+    "victorias_en_novena": 2,
+    "victoria_mas_en_octava": 1,
+    "partidas_terminales": 16,
+    "rechazos_tras_victoria": 144
+  }
+}

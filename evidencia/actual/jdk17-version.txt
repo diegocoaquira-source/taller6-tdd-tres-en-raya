@@ -1,0 +1,6 @@
+COMANDO: "<JDK_LOCAL>\bin\java.exe" -version
+RETORNO: 0
+
+openjdk version "17.0.6" 2023-01-17
+OpenJDK Runtime Environment JBR-17.0.6+10-829.5-jcef (build 17.0.6+10-b829.5)
+OpenJDK 64-Bit Server VM JBR-17.0.6+10-829.5-jcef (build 17.0.6+10-b829.5, mixed mode)

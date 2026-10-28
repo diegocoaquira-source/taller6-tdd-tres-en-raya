@@ -1,0 +1,9 @@
+{
+  "archivo": "presentacion_final.pdf",
+  "paginas": 9,
+  "generacion": "ReportLab 4.4.9",
+  "validacion": "pypdf 6.10.0; texto extraible, ejemplos y cifras contrastados con evidencia actual",
+  "renderizado": "pdftoppm PNG a 1000 px",
+  "revision_visual": "9 paginas revisadas en montaje nuevo; tablas, codigo, URL y conclusiones legibles, sin solapamientos",
+  "sha256": "620294ccfe8e3eaa7882bd70ed7d182c9cd2eea9103522f092336085fe1544b2"
+}

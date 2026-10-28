@@ -1,0 +1,27 @@
+COMANDO: "C:\Program Files (x86)\Java\jre1.8.0_241\bin\java.exe" -jar <PROYECTO>\dist\tres-en-raya.jar
+RETORNO: 0
+
+Tres en Raya: X y +. Fila y columna de 1 a 3. q para salir.
+. . . 
+. . . 
+. . . 
+Turno X> No hay ganador
+X . . 
+. . . 
+. . . 
+Turno +> No hay ganador
+X . . 
++ . . 
+. . . 
+Turno X> No hay ganador
+X X . 
++ . . 
+. . . 
+Turno +> No hay ganador
+X X . 
++ + . 
+. . . 
+Turno X> X es el ganador
+X X X 
++ + . 
+. . . 

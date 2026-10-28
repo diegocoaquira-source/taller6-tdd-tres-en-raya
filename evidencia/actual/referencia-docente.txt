@@ -1,0 +1,45 @@
+COMANDO: "<JDK_LOCAL>\bin\java.exe" -cp "<REFERENCIA_TEMPORAL>;<JUNIT_LOCAL>" org.junit.runner.JUnitCore com.ucb.tdd.TresEnRayaTest
+RETORNO: 0
+
+JUnit version 4.13.2
+.Inicializando Prueba.... com.ucb.tdd.TresEnRaya@5383967b
+Ocupando posicion: 2, 1
+Ocupando posicion: 2, 2
+.Inicializando Prueba.... com.ucb.tdd.TresEnRaya@6fc6f14e
+Ocupando posicion: 1, 3
+.Inicializando Prueba.... com.ucb.tdd.TresEnRaya@3b0143d3
+Ocupando posicion: 1, 2
+Ocupando posicion: 1, 3
+Ocupando posicion: 1, 1
+Ocupando posicion: 2, 2
+Ocupando posicion: 2, 3
+Ocupando posicion: 3, 1
+.Inicializando Prueba.... com.ucb.tdd.TresEnRaya@4b4523f8
+Ocupando posicion: 2, 1
+.Inicializando Prueba.... com.ucb.tdd.TresEnRaya@369f73a2
+.Inicializando Prueba.... com.ucb.tdd.TresEnRaya@7d907bac
+Ocupando posicion: 1, 1
+Ocupando posicion: 1, 2
+Ocupando posicion: 2, 1
+Ocupando posicion: 2, 2
+Ocupando posicion: 3, 1
+.Inicializando Prueba.... com.ucb.tdd.TresEnRaya@3a5ed7a6
+Ocupando posicion: 2, 1
+Ocupando posicion: 1, 1
+Ocupando posicion: 3, 1
+Ocupando posicion: 1, 2
+Ocupando posicion: 2, 2
+Ocupando posicion: 1, 3
+.Inicializando Prueba.... com.ucb.tdd.TresEnRaya@1d16f93d
+Ocupando posicion: 1, 1
+Ocupando posicion: 1, 2
+Ocupando posicion: 2, 2
+Ocupando posicion: 1, 3
+Ocupando posicion: 3, 3
+.Inicializando Prueba.... com.ucb.tdd.TresEnRaya@2b9627bc
+.Inicializando Prueba.... com.ucb.tdd.TresEnRaya@4f970963
+
+Time: 0,014
+
+OK (10 tests)
+

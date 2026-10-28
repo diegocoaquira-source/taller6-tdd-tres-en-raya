@@ -1,0 +1,37 @@
+Repositorio: https://github.com/diegocoaquira-source/taller6-tdd-tres-en-raya
+Ejecucion: https://github.com/diegocoaquira-source/taller6-tdd-tres-en-raya/actions/runs/40772099194
+Commit de codigo verificado: 6abd12055de03e344dca4d680d5ba58c3ab86619
+Job: 123111705907; conclusion: success
+Extracto literal de logs, sin identificadores internos del runner:
+2026-10-28T21:27:34.7039327Z   distribution: temurin
+2026-10-28T21:27:34.7039694Z   java-version: 17
+2026-10-28T21:27:35.1156805Z ##[group]Run mvn -B clean test "-Dtest=TresEnRayaBaseTest" --file pom.xml
+2026-10-28T21:27:35.1158745Z [36;1mmvn -B clean test "-Dtest=TresEnRayaBaseTest" --file pom.xml[0m
+2026-10-28T21:27:45.4982210Z [INFO] Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.13/junit-4.13.pom
+2026-10-28T21:27:45.5693176Z [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.13/junit-4.13.pom (25 kB at 353 kB/s)
+2026-10-28T21:27:45.7210440Z [INFO] Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.13/junit-4.13.jar
+2026-10-28T21:27:45.7987850Z [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.13/junit-4.13.jar (382 kB at 4.9 MB/s)
+2026-10-28T21:27:50.4096441Z [INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s -- in com.ucb.tdd.TresEnRayaBaseTest
+2026-10-28T21:27:50.4196082Z [INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0
+2026-10-28T21:27:50.4220374Z [INFO] BUILD SUCCESS
+2026-10-28T21:27:50.4527119Z ##[group]Run mvn -B test "-Dtest=TresEnRayaIATest" --file pom.xml
+2026-10-28T21:27:50.4527517Z [36;1mmvn -B test "-Dtest=TresEnRayaIATest" --file pom.xml[0m
+2026-10-28T21:27:53.3729484Z [INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s -- in com.ucb.tdd.TresEnRayaIATest
+2026-10-28T21:27:53.3815589Z [INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
+2026-10-28T21:27:53.3843807Z [INFO] BUILD SUCCESS
+2026-10-28T21:27:53.4109342Z ##[group]Run mvn -B test "-Dtest=TresEnRayaBaseTest,TresEnRayaIATest" --file pom.xml
+2026-10-28T21:27:53.4109852Z [36;1mmvn -B test "-Dtest=TresEnRayaBaseTest,TresEnRayaIATest" --file pom.xml[0m
+2026-10-28T21:27:56.3148429Z [INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s -- in com.ucb.tdd.TresEnRayaIATest
+2026-10-28T21:27:56.3242519Z [INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.ucb.tdd.TresEnRayaBaseTest
+2026-10-28T21:27:56.3363282Z [INFO] Tests run: 44, Failures: 0, Errors: 0, Skipped: 0
+2026-10-28T21:27:56.3372208Z [INFO] BUILD SUCCESS
+2026-10-28T21:27:56.3756998Z ##[group]Run mvn -B verify --file pom.xml
+2026-10-28T21:27:56.3757450Z [36;1mmvn -B verify --file pom.xml[0m
+2026-10-28T21:27:59.6313007Z [INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s -- in com.ucb.tdd.TresEnRayaIATest
+2026-10-28T21:27:59.6431838Z [INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in com.ucb.tdd.TresEnRayaTest
+2026-10-28T21:27:59.6596683Z [INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in com.ucb.tdd.TresEnRayaDesarrolloTest
+2026-10-28T21:27:59.6638274Z [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.ucb.tdd.TresEnRayaGuiadosTest
+2026-10-28T21:27:59.6639841Z [INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.ucb.tdd.TresEnRayaRegresionTest
+2026-10-28T21:27:59.6744705Z [INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in com.ucb.tdd.TresEnRayaBaseTest
+2026-10-28T21:27:59.6853829Z [INFO] Tests run: 75, Failures: 0, Errors: 0, Skipped: 0
+2026-10-28T21:28:00.5551990Z [INFO] BUILD SUCCESS

@@ -1,0 +1,34 @@
+Genera TresEnRayaIATest.java como una suite comparativa ampliada de IA en
+Java compatible con Java 8 y JUnit 4.13. La base didactica ya se guardo en
+el tag base-didactica-v1 y no debe modificarse para favorecer esta suite.
+Ambas suites son asistidas por IA. No atribuyas autoría humana independiente.
+
+Contrato obligatorio del curso: paquete com.ucb.tdd; clase TresEnRaya;
+String jugar(int x,int y) throws Exception y char siguienteTurno(). Tablero
+3x3, coordenadas 1..3 en ambos ejes, x=fila, y=columna. Jugadores X y +.
+X comienza, alternan tras jugadas validas. Fuera de rango y ocupada lanzan
+Exception. Una jugada rechazada conserva el turno. jugar devuelve exactamente
+No hay ganador, X es el ganador o + es el ganador. Probar las 8 lineas para
+ambos jugadores, usando secuencias legales y sin victorias previas.
+
+Amplia escenarios sin reducir la base: valores Integer.MIN_VALUE y MAX_VALUE,
+ambos ejes y estados de turno, inicio en cualquiera de las nueve casillas,
+rechazos consecutivos, independencia de partidas, consultas repetidas sin
+efectos, lineas mixtas sin ganador y continuidad del tablero tras errores.
+Comprueba respuestas intermedias y turnos de cada secuencia ganadora.
+
+Separa extensiones del contrato obligatorio: el motor usa
+IllegalArgumentException para rango e IllegalStateException para ocupada y
+para jugar despues de ganar. Bloquea despues de la primera victoria.
+En empate el motor conserva No hay ganador. siguienteTurno sigue alternando
+incluso despues de una victoria, aunque no admite nuevas jugadas. Prueba
+victoria en novena jugada, victoria de + en octava y tablero lleno sin ganador.
+
+Puedes agrupar datos repetidos y usar ayudantes privados breves para las
+secuencias. Usa solo la API publica: no reflection, atributos privados ni
+listas internas de lineas. No introduzcas requisitos de mensajes de error
+no acordados ni cambies el programa para hacer pasar expectativas inventadas.
+
+Estas son verificaciones posteriores a la implementacion. No inventes ciclos
+RED-GREEN, cobertura, métricas ni ejecuciones. Cuenta métodos y subcasos por
+separado. Ejecuta base y ampliada por separado y juntas contra el mismo motor.

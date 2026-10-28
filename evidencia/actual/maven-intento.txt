@@ -1,0 +1,2 @@
+Solicitud: mvn -B clean verify
+Maven ejecutado; consultar maven-version.txt y maven-ejecucion.txt.

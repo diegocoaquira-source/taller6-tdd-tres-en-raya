@@ -1,0 +1,21 @@
+COMANDO: "<JDK_LOCAL>\bin\java.exe" -Dfile.encoding=UTF-8 -cp "<COPIA_TEMPORAL>;<JUNIT_LOCAL>" org.junit.runner.JUnitCore com.ucb.tdd.TresEnRayaBaseTest
+RETORNO: 1
+
+JUnit version 4.13.2
+......................E....E..
+Time: 0,012
+There were 2 failures:
+1) masGanaEnDiagonalOpuesta(com.ucb.tdd.TresEnRayaBaseTest)
+org.junit.ComparisonFailure: expected:<[+ es el] ganador> but was:<[No hay] ganador>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.ucb.tdd.TresEnRayaBaseTest.masGanaEnDiagonalOpuesta(TresEnRayaBaseTest.java:424)
+2) xGanaEnDiagonalOpuesta(com.ucb.tdd.TresEnRayaBaseTest)
+org.junit.ComparisonFailure: expected:<[X es el] ganador> but was:<[No hay] ganador>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.ucb.tdd.TresEnRayaBaseTest.xGanaEnDiagonalOpuesta(TresEnRayaBaseTest.java:288)
+
+FAILURES!!!
+Tests run: 28,  Failures: 2
+

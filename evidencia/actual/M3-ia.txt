@@ -1,0 +1,53 @@
+COMANDO: "<JDK_LOCAL>\bin\java.exe" -Dfile.encoding=UTF-8 -cp "<COPIA_TEMPORAL>;<JUNIT_LOCAL>" org.junit.runner.JUnitCore com.ucb.tdd.TresEnRayaIATest
+RETORNO: 1
+
+JUnit version 4.13.2
+..E.E...E.....E.E..E..
+Time: 0,017
+There were 6 failures:
+1) rechazarOcupadaEnTurnoDeXConservaX(com.ucb.tdd.TresEnRayaIATest)
+java.lang.AssertionError: expected:<88> but was:<43>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at com.ucb.tdd.TresEnRayaIATest.rechazarOcupadaEnTurnoDeXConservaX(TresEnRayaIATest.java:84)
+2) adicionalTiposDeExcepcionDeclaradosEnElContrato(com.ucb.tdd.TresEnRayaIATest)
+java.lang.AssertionError: expected:<43> but was:<88>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at com.ucb.tdd.TresEnRayaIATest.adicionalTiposDeExcepcionDeclaradosEnElContrato(TresEnRayaIATest.java:185)
+3) cualquieraDeLasNueveCasillasPermitePrimeraJugada(com.ucb.tdd.TresEnRayaIATest)
+java.lang.AssertionError: expected:<43> but was:<88>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at com.ucb.tdd.TresEnRayaIATest.cualquieraDeLasNueveCasillasPermitePrimeraJugada(TresEnRayaIATest.java:61)
+4) tableroLlenoSinLineaMantieneNoHayGanador(com.ucb.tdd.TresEnRayaIATest)
+java.lang.AssertionError: expected:<43> but was:<88>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at com.ucb.tdd.TresEnRayaIATest.tableroLlenoSinLineaMantieneNoHayGanador(TresEnRayaIATest.java:141)
+5) rechazarOcupadaNoBorraNiReemplazaLaFichaOriginal(com.ucb.tdd.TresEnRayaIATest)
+java.lang.AssertionError: expected:<43> but was:<88>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at com.ucb.tdd.TresEnRayaIATest.rechazarOcupadaNoBorraNiReemplazaLaFichaOriginal(TresEnRayaIATest.java:172)
+6) rechazosConsecutivosDeOcupadaNoConsumenTurnos(com.ucb.tdd.TresEnRayaIATest)
+java.lang.AssertionError: expected:<43> but was:<88>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at com.ucb.tdd.TresEnRayaIATest.rechazosConsecutivosDeOcupadaNoConsumenTurnos(TresEnRayaIATest.java:72)
+
+FAILURES!!!
+Tests run: 16,  Failures: 6
+

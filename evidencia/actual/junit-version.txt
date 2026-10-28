@@ -1,0 +1,4 @@
+COMANDO: "<JDK_LOCAL>\bin\java.exe" -cp "<JUNIT_LOCAL>" junit.runner.Version
+RETORNO: 0
+
+4.13.2

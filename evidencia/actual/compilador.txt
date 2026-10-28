@@ -1,0 +1,4 @@
+COMANDO: "<JDK_LOCAL>\bin\javac.exe" -version
+RETORNO: 0
+
+javac 17.0.6

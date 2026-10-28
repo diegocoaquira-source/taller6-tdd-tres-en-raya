@@ -1,0 +1,75 @@
+Termina el taller de TDD del Tres en Raya usando el proyecto Java actual y la referencia del docente. Necesito los archivos definitivos, preparados para publicar y entregar. Avanza sin seguir pidiéndome que proponga casos.
+
+CONFIGURACIÓN
+
+- Java compatible con Java 8.
+- Maven y JUnit 4.
+- Paquete com.ucb.tdd.
+- Jugadores X y +.
+- Coordenadas del 1 al 3.
+- Métodos jugar(int x, int y) y siguienteTurno().
+- Conserva la compatibilidad con las pruebas del docente.
+
+PRUEBAS BASE\
+Completa y revisa una suite con estilo de estudiante principiante:
+
+- Métodos cortos y nombres descriptivos en español.
+- Preparación, acción y comprobación fáciles de reconocer.
+- Valores concretos y aserciones claras.
+- Sin abstracciones innecesarias ni comentarios artificiales.
+- No introduzcas errores ni omisiones deliberadas para aparentar autoría humana.
+- No incluyas afirmaciones de autoría en los comentarios del código.
+
+Cubre coordenadas inválidas en ambos ejes, casillas ocupadas, primer turno, alternancia, conservación del turno tras errores, ausencia de ganador y todas las líneas ganadoras para ambos jugadores.
+
+PRUEBAS AMPLIADAS\
+Mantén otra suite separada con escenarios adicionales y comprobaciones más completas. Utiliza el mismo programa y contrato. Conserva las pruebas del docente por separado y guarda los prompts exactos utilizados.
+
+VERIFICACIÓN
+
+- Revisa y corrige el programa.
+- Ejecuta Maven y las suites por separado y juntas.
+- Comprueba que el JAR funciona.
+- Si necesitas dependencias, intenta obtenerlas mediante las herramientas disponibles.
+- No inventes resultados ni reutilices resultados antiguos como si correspondieran a la versión final.
+- Documenta brevemente cualquier comprobación bloqueada.
+- No fabriques ciclos TDD: distingue los ciclos registrados de las pruebas añadidas posteriormente.
+
+PRESENTACIÓN PDF\
+Prepara una presentación breve y legible con:
+
+1. Objetivo y reglas del juego.
+2. Herramientas y estructura.
+3. Proceso TDD realmente realizado.
+4. Suite base y suite ampliada.
+5. Tabla de diferencias sustanciales.
+6. Dos ejemplos concretos de código comparado.
+7. Resultados de ejecución comprobados.
+8. Conclusiones y limitaciones.
+
+Usa lenguaje académico sencillo. Elimina las narraciones sobre conversaciones anteriores y las advertencias repetidas. Incluye una sola sección breve de metodología y contribuciones con información precisa, sin atribuirme autoría independiente que no esté acreditada. Revisa visualmente todas las páginas.
+
+DOCUMENTACIÓN Y PAQUETE\
+Actualiza:
+
+- README.md con instalación, ejecución y estructura.
+- PROMPTS.md con los prompts realmente utilizados.
+- AUTORIA.md con contribuciones resumidas y exactas.
+- Workflow de GitHub Actions para Maven y JDK 17.
+- Evidencia vigente y coherente con el código final.
+
+Genera un ZIP definitivo con código, pruebas, configuración, documentación y PDF. Excluye archivos temporales, cachés, rutas personales innecesarias y resultados obsoletos. Conserva las referencias al material del docente.
+
+PUBLICACIÓN\
+Deja el proyecto listo para un repositorio público de GitHub. Si tienes acceso autenticado y autorizado, publica el proyecto y verifica su URL y el resultado de Actions. Si no tienes acceso, entrega instrucciones exactas para subirlo y distingue ese pendiente. No inventes una URL.
+
+AL TERMINAR\
+Entrégame:
+
+- ZIP definitivo.
+- PDF definitivo.
+- PROMPTS.md.
+- URL pública, si se publicó.
+- Una lista corta de lo verificado y lo pendiente.
+
+No afirmes cumplimiento total de la comparación de pruebas propias frente a IA si ambas suites fueron elaboradas con asistencia. Completa igualmente todos los entregables técnicos posibles.

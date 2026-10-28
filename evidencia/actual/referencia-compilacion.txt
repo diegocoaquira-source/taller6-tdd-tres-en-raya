@@ -1,0 +1,5 @@
+COMANDO: "<JDK_LOCAL>\bin\javac.exe" --release 8 -encoding UTF-8 -cp "<JUNIT_LOCAL>" -d <REFERENCIA_TEMPORAL> <REFERENCIA_TEMPORAL>\TresEnRaya.java <PROYECTO>\src\test\java\com\ucb\tdd\TresEnRayaTest.java <PROYECTO>\src\test\java\com\ucb\tdd\TresEnRayaRegresionTest.java
+RETORNO: 0
+
+Note: <PROYECTO>\src\test\java\com\ucb\tdd\TresEnRayaTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

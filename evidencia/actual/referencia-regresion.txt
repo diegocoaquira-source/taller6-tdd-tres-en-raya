@@ -1,0 +1,22 @@
+COMANDO: "<JDK_LOCAL>\bin\java.exe" -cp "<REFERENCIA_TEMPORAL>;<JUNIT_LOCAL>" org.junit.runner.JUnitCore com.ucb.tdd.TresEnRayaRegresionTest
+RETORNO: 1
+
+JUnit version 4.13.2
+.Ocupando posicion: 1, 1
+E.Ocupando posicion: 3, 3
+.Ocupando posicion: 1, 1
+Ocupando posicion: 2, 2
+
+Time: 0,009
+There was 1 failure:
+1) rechazarOcupadaConservaTurnoYJugadaSiguiente(com.ucb.tdd.TresEnRayaRegresionTest)
+java.lang.AssertionError: expected:<43> but was:<88>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at com.ucb.tdd.TresEnRayaRegresionTest.rechazarOcupadaConservaTurnoYJugadaSiguiente(TresEnRayaRegresionTest.java:17)
+
+FAILURES!!!
+Tests run: 3,  Failures: 1
+

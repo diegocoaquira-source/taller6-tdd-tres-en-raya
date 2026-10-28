@@ -1,0 +1,9 @@
+COMANDO: <PROYECTO>\.local-build\tools\apache-maven-3.9.16\bin\mvn.cmd -version
+RETORNO: 0
+
+Apache Maven 3.9.16 (2bdd9fddda4b155ebf8000e807eb73fd829a51d5)
+Maven home: <PROYECTO>\.local-build\tools\apache-maven-3.9.16
+Java version: 17.0.6, vendor: JetBrains s.r.o., runtime: <JDK_LOCAL>
+Default locale: es_ES, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+Acceso denegado.

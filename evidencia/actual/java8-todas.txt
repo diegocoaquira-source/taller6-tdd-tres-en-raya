@@ -1,0 +1,19 @@
+COMANDO: "C:\Program Files (x86)\Java\jre1.8.0_241\bin\java.exe" -Dfile.encoding=UTF-8 -cp "<PROYECTO>\.local-build\final;<JUNIT_LOCAL>" org.junit.runner.JUnitCore com.ucb.tdd.TresEnRayaBaseTest com.ucb.tdd.TresEnRayaIATest com.ucb.tdd.TresEnRayaTest com.ucb.tdd.TresEnRayaGuiadosTest com.ucb.tdd.TresEnRayaDesarrolloTest com.ucb.tdd.TresEnRayaRegresionTest
+RETORNO: 0
+
+JUnit version 4.13.2
+.............................................Inicializando Prueba.... com.ucb.tdd.TresEnRaya@77463f
+.Inicializando Prueba.... com.ucb.tdd.TresEnRaya@f4f579
+.Inicializando Prueba.... com.ucb.tdd.TresEnRaya@8c92f4
+.Inicializando Prueba.... com.ucb.tdd.TresEnRaya@134894
+.Inicializando Prueba.... com.ucb.tdd.TresEnRaya@176c05c
+.Inicializando Prueba.... com.ucb.tdd.TresEnRaya@14fb997
+.Inicializando Prueba.... com.ucb.tdd.TresEnRaya@ba21f3
+.Inicializando Prueba.... com.ucb.tdd.TresEnRaya@12a0b8e
+.Inicializando Prueba.... com.ucb.tdd.TresEnRaya@fa23c1
+.Inicializando Prueba.... com.ucb.tdd.TresEnRaya@a8ceb6
+.....................
+Time: 0,054
+
+OK (75 tests)
+
