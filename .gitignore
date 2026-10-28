@@ -1,0 +1,8 @@
+target/
+.local-build/
+.idea/
+*.iml
+__pycache__/
+*.pyc
+*.bundle
+historial/

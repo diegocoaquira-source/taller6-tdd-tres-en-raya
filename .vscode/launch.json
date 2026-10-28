@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Jugar Tres en Raya",
+      "request": "launch",
+      "mainClass": "com.ucb.tdd.Main",
+      "console": "integratedTerminal"
+    }
+  ]
+}
